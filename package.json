@@ -4,8 +4,10 @@
   "scripts": {
     "dev": "pnpm -r dev",
     "build": "pnpm -r build",
+    "typecheck": "pnpm -r lint",
     "lint": "pnpm -r lint",
-    "test": "pnpm -r test"
+    "test": "pnpm -r test",
+    "eval": "pnpm --filter @agent-sprint/evals test"
   },
   "engines": {
     "node": ">=18"

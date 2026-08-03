@@ -1,0 +1,1 @@
+// Sales Tools MCP Server: search_products, get_product_detail, compare_products, etc.

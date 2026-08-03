@@ -1,0 +1,1 @@
+// MCP Client adapter: dynamic tool discovery, tool conversion, transport management
