@@ -1,0 +1,21 @@
+{
+  "name": "@agent-sprint/api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@agent-sprint/shared": "workspace:*",
+    "@agent-sprint/agent-core": "workspace:*",
+    "hono": "^4"
+  },
+  "devDependencies": {
+    "tsx": "^4",
+    "typescript": "^5",
+    "@types/node": "^20"
+  }
+}

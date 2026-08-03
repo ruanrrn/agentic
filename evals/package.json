@@ -1,0 +1,17 @@
+{
+  "name": "@agent-sprint/evals",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@agent-sprint/agent-core": "workspace:*",
+    "@agent-sprint/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "vitest": "^1"
+  }
+}
